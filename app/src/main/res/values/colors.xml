@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3C3F41</color>
+    <color name="colorPrimaryDark">#3C3F41</color>
+    <color name="colorAccent">#ACACAD</color>
+
+    <color name="colorBackground">#2B2B2C</color>
+    <color name="colorButton">#3C3F41</color>
+    <color name="colorText">#ACACAD</color>
+</resources>
