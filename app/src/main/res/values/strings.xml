@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">ElementaryNoter</string>
-    <string name="your_note">Your note</string>
+    <string name="your_note1">1 - Your note</string>
+    <string name="your_note2">2 - Your note</string>
+    <string name="your_note3">3 - Your note</string>
     <string name="note_input">Note input</string>
     <string name="note">NOTE</string>
     <string name="clear">Clear</string>

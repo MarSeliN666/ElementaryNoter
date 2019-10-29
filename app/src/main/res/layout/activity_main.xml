@@ -8,12 +8,31 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/noteView"
+        android:id="@+id/noteView1"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_margin="13dp"
-        android:layout_weight="5"
-        android:text="@string/your_note"
+        android:layout_weight="1"
+        android:text="@string/your_note1"
+        android:textColor="@color/colorText"
+        android:textColorHighlight="@color/colorText"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/noteView2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="13dp"
+        android:layout_weight="1"
+        android:text="@string/your_note2"
+        android:textColor="@color/colorText"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/noteView3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="13dp"
+        android:layout_weight="1"
+        android:text="@string/your_note3"
         android:textColor="@color/colorText"
         android:textSize="20sp" />
 
@@ -23,12 +42,16 @@
         android:layout_height="0dp"
         android:layout_margin="13dp"
         android:layout_weight="5"
-        android:autofillHints=""
         android:gravity="start"
+        android:hint="@string/note_input"
         android:inputType="text"
-        android:text="@string/note_input"
+        android:singleLine="false"
+        android:soundEffectsEnabled="false"
         android:textColor="@color/colorText"
-        android:textSize="20sp" />
+        android:textColorHint="@color/colorText"
+        android:textIsSelectable="false"
+        android:textSize="20sp"
+        tools:targetApi="o" />
 
     <LinearLayout
         android:layout_width="match_parent"
